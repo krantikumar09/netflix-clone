@@ -1,0 +1,14 @@
+@media only screen and (max-width: 960px) {
+  header .logo img {
+    width: 88.8px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .lang {
+    padding: 6px 20px;
+  }
+  .btn {
+    padding: 7px 20px;
+  }
+}

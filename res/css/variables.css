@@ -1,0 +1,46 @@
+:root {
+  --redColor: #e50914;
+  --textColor: rgb(255, 255, 255);
+  --blackColor: #000000;
+
+  /* gradient */
+  --hero-header-gradient: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0) 60%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+}
+
+body {
+  background-color: var(--blackColor);
+}
+
+.red-color {
+  color: var(--redColor);
+}
+
+.text-color {
+  color: var(--textColor);
+}
+
+.heading1 {
+  color: var(--textColor);
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+
+.desc {
+  color: var(--textColor);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.sec-line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 10px;
+  background-color: #232323;
+}

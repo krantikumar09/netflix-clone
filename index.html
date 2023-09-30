@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+    <title>Netflix clone</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="res/css/style.css">
+    <link rel="stylesheet" href="res/css/variables.css">
+    <link rel="stylesheet" href="res/css/responsive.css">
+
+
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/2558c42d09.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section class="hero-header">
+        <div class="container mx-auto px-4 sm:px-0">
+            <div class="wrapper py-6">
+                <header>
+                    <nav class="flex items-center justify-between">
+                        <div class="logo">
+                            <img src="Images//logo.png" alt="">
+                        </div>
+
+                        <div class="menu">
+                            <select class="lang">
+                                <option value="English" class="hidden md:block">English</option>
+                            </select>
+
+                            <a href="signin.html" class="pri-btn btn ms-1 sm:ms-2 md:ms-3">Sign in</a>
+                        </div>
+                    </nav>
+                </header>
+
+                <div class="hero text-center">
+                    <h1 class="heading1 lg:text-5xl md:text-4xl text-4xl leading-normal">The biggest Indian
+                        hits.
+                        Ready to
+                        watch here<br class="hidden lg:block"> from
+                        ₹
+                        149.</h1>
+                    <p class="sub-title text-color text-lg sm:text-xl md:text-2xl font-medium leading-normal mb-5">Join
+                        today. Cancel
+                        anytime.
+                    </p>
+                    <p class="desc text-color text-base sm:text-lg md:text-xl leading-normal">Ready to watch? Enter your
+                        email to create or
+                        restart your membership.</p>
+
+                    <form class="mt-10 flex items-center justify-center gap-4">
+                        <input type="text" class="form-control" placeholder="Email address" />
+                        <button class="btn pri-btn">Get Started <i class="fa-solid fa-chevron-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature 1 -->
+    <section class="feature-1 relative pb-14 hidden">
+        <div class="sec-line"></div>
+        <div class="container mx-auto px-4 sm:px-0">
+            <div class="wrapper">
+                <div class="flex items-center justify-between">
+                    <div class="">
+                        <h1 class="heading1 text-5xl leading-normal">Enjoy on your TV</h1>
+                        <p class="desc text-color text-1xl leading-normal">Watch on smart TVs, PlayStation, Xbox,
+                            Chromecast, Apple TV, Blu-ray players and
+                            more.</p>
+                    </div>
+                    <div class="">
+                        <img src="Images//feature-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- custom js -->
+    <script src="res/js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,127 @@
+@import "../css/variables.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+
+:root {
+  --redColor: #e50914;
+  --btn-border-color: #5e5e5e;
+  --btn-bg-color: #0f0f0f;
+  --text-white-color: #ffffff;
+  --sec-border-color: #232323;
+
+  --input-bg: rgba(22, 22, 22, 0.7);
+}
+
+:focus {
+  outline: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.hero-header {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url(/Images/header-image.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  z-index: 1;
+}
+
+.hero-header::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0.8) 0,
+    rgba(0, 0, 0, 0.495) 60%,
+    rgba(0, 0, 0, 0.69) 100%
+  );
+}
+
+.hero-header .container {
+  position: relative;
+  z-index: 100;
+}
+
+header .logo img {
+  width: 180px;
+}
+
+.lang {
+  border: 1px solid var(--btn-border-color);
+  background-color: transparent;
+  color: var(--text-white-color);
+  padding: 6px 36px;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.btn {
+  padding: 8px 22px;
+  background-color: var(--redColor);
+  color: var(--text-white-color);
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+/* hero */
+.hero {
+  margin-top: 10%;
+}
+
+.hero .form-control {
+  max-width: 369px;
+  width: 100%;
+  height: 52px;
+  padding: 10px 18px;
+  font-size: 16px;
+  font-weight: 400;
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border: 1px solid var(--btn-border-color);
+  color: var(--text-white-color);
+  background-color: var(--input-bg);
+}
+
+.hero .form-control:focus {
+  outline: 1px solid #ffffff;
+}
+
+.hero .btn {
+  height: 52px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.hero .btn i {
+  margin-left: 4px;
+  font-size: 18px;
+  width: 400;
+}
