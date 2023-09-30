@@ -28,7 +28,7 @@
 <body>
 
     <section class="hero-header">
-        <div class="container mx-auto px-4 sm:px-0">
+        <div class="container mx-auto px-4 lg:px-0">
             <div class="wrapper py-6">
                 <header>
                     <nav class="flex items-center justify-between">
@@ -37,8 +37,8 @@
                         </div>
 
                         <div class="menu">
-                            <select class="lang">
-                                <option value="English" class="hidden md:block">English</option>
+                            <select class="lang hidden sm:inline">
+                                <option value="English">English</option>
                             </select>
 
                             <a href="signin.html" class="pri-btn btn ms-1 sm:ms-2 md:ms-3">Sign in</a>
@@ -47,7 +47,7 @@
                 </header>
 
                 <div class="hero text-center">
-                    <h1 class="heading1 lg:text-5xl md:text-4xl text-4xl leading-normal">The biggest Indian
+                    <h1 class="heading1 lg:text-5xl md:text-4xl text-3xl leading-normal">The biggest Indian
                         hits.
                         Ready to
                         watch here<br class="hidden lg:block"> from
@@ -61,7 +61,7 @@
                         email to create or
                         restart your membership.</p>
 
-                    <form class="mt-10 flex items-center justify-center gap-4">
+                    <form class="mt-10 flex flex-col sm:flex-row items-center justify-center gap-5">
                         <input type="text" class="form-control" placeholder="Email address" />
                         <button class="btn pri-btn">Get Started <i class="fa-solid fa-chevron-right"></i></button>
                     </form>
@@ -71,19 +71,85 @@
     </section>
 
     <!-- feature 1 -->
-    <section class="feature-1 relative pb-14 hidden">
+    <section class="feature-1 relative pb-14">
         <div class="sec-line"></div>
-        <div class="container mx-auto px-4 sm:px-0">
-            <div class="wrapper">
-                <div class="flex items-center justify-between">
+        <div class="container mx-auto px-4 lg:px-0">
+            <div class="wrapper py-10">
+                <div
+                    class="flex flex-col md:flex-row items-center justify-center md:justify-between gap-5 lg:gap-8 text-center md:text-left">
                     <div class="">
-                        <h1 class="heading1 text-5xl leading-normal">Enjoy on your TV</h1>
-                        <p class="desc text-color text-1xl leading-normal">Watch on smart TVs, PlayStation, Xbox,
+                        <h1 class="heading1 lg:text-5xl md:text-4xl text-3xl leading-normal">Enjoy on your TV</h1>
+                        <p class="desc text-color text-base sm:text-lg md:text-xl leading-normal">Watch on smart TVs,
+                            PlayStation, Xbox,
                             Chromecast, Apple TV, Blu-ray players and
                             more.</p>
                     </div>
                     <div class="">
                         <img src="Images//feature-1.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature 2 -->
+    <section class="feature-2 relative pb-14">
+        <div class="sec-line"></div>
+        <div class="container mx-auto px-4 lg:px-0">
+            <div class="wrapper py-10">
+                <div
+                    class="flex flex-col-reverse md:flex-row items-center justify-center md:justify-between gap-5 lg:gap-8 text-center md:text-left">
+                    <div class="">
+                        <img src="Images//feature-2.png" alt="">
+                    </div>
+                    <div class="">
+                        <h1 class="heading1 lg:text-5xl md:text-4xl text-3xl leading-normal">Download your shows to
+                            watch offline</h1>
+                        <p class="desc text-color text-base sm:text-lg md:text-xl leading-normal">Save your favourites
+                            easily and always have something to watch.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature 3 -->
+    <section class="feature-3 relative pb-14">
+        <div class="sec-line"></div>
+        <div class="container mx-auto px-4 lg:px-0">
+            <div class="wrapper py-10">
+                <div
+                    class="flex flex-col md:flex-row items-center justify-center md:justify-between gap-5 lg:gap-8 text-center md:text-left">
+
+                    <div class="">
+                        <h1 class="heading1 lg:text-5xl md:text-4xl text-3xl leading-normal">Watch everywhere</h1>
+                        <p class="desc text-color text-base sm:text-lg md:text-xl leading-normal">Stream unlimited
+                            movies and TV shows on your phone, tablet, laptop, and TV.</p>
+                    </div>
+                    <div class="">
+                        <img src="Images//feature-3.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- feature 4 -->
+    <section class="feature-4 relative pb-14">
+        <div class="sec-line"></div>
+        <div class="container mx-auto px-4 lg:px-0">
+            <div class="wrapper py-10">
+                <div
+                    class="flex flex-col-reverse md:flex-row items-center justify-center md:justify-between gap-5 lg:gap-8 text-center md:text-left">
+                    <div class="">
+                        <img src="Images//feature-4.png" alt="">
+                    </div>
+                    <div class="">
+                        <h1 class="heading1 lg:text-5xl md:text-4xl text-3xl leading-normal">Create profiles for kids
+                        </h1>
+                        <p class="desc text-color text-base sm:text-lg md:text-xl leading-normal">Send children on
+                            adventures with their favourite characters in a space made just for them—free with your
+                            membership.</p>
                     </div>
                 </div>
             </div>
