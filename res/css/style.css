@@ -93,7 +93,7 @@ header .logo img {
   margin-top: 10%;
 }
 
-.hero .form-control {
+.login-wrapper .form-control {
   max-width: 369px;
   width: 100%;
   height: 52px;
@@ -110,18 +110,72 @@ header .logo img {
   background-color: var(--input-bg);
 }
 
-.hero .form-control:focus {
+.login-wrapper .form-control:focus {
   outline: 1px solid #ffffff;
 }
 
-.hero .btn {
+.login-wrapper .btn {
   height: 52px;
   font-size: 22px;
   font-weight: 600;
 }
 
-.hero .btn i {
+.login-wrapper .btn i {
   margin-left: 4px;
   font-size: 18px;
   width: 400;
+}
+
+/* faq */
+
+.accordian-box {
+  margin-bottom: 10px;
+}
+.accordion {
+  position: relative;
+  background-color: var(--sec-border-color);
+  color: var(--text-white-color);
+  cursor: pointer;
+  padding: 24px 45px 24px 24px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  transition: 0.4s;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
+.accordion::after {
+  content: "\2b";
+  position: absolute;
+  width: auto;
+  height: auto;
+  top: 50%;
+  right: 14px;
+  font-size: 40px;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+.accordion.active::after {
+  content: "x";
+}
+.accordion:hover {
+  background-color: #656565a1;
+}
+.panel {
+  height: 0;
+  background-color: var(--sec-border-color);
+  overflow: hidden;
+  margin-top: 1px;
+  margin-bottom: 10px;
+}
+
+.panel .desc {
+  padding: 24px;
 }
