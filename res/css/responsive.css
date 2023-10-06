@@ -4,6 +4,7 @@
   }
 }
 
+
 @media only screen and (max-width: 600px) {
   .lang {
     padding: 6px 20px;
@@ -14,5 +15,9 @@
 
   .accordion::after {
     font-size: 30px;
+  }
+
+  .signin-container {
+    margin-top: 30px;
   }
 }

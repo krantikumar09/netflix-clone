@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="Images/favicon.png" type="image/x-icon">
+    <title>Netflix clone</title>
+    <!-- custom css -->
+    <link rel="stylesheet" href="res/css/style.css">
+    <link rel="stylesheet" href="res/css/variables.css">
+    <link rel="stylesheet" href="res/css/responsive.css">
+
+
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- font awesome cdn -->
+    <script src="https://kit.fontawesome.com/2558c42d09.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <section class="hero-header signin">
+        <div class="container mx-auto px-4 lg:px-0">
+            <div class="wrapper py-6">
+                <header>
+                    <nav class="flex items-center justify-between">
+                        <div class="logo">
+                            <img src="Images//logo.png" alt="">
+                        </div>
+                    </nav>
+                </header>
+
+                <div class="signin-container flex items-center justify-center">
+                    <div class="wrapper p-6 sm:p-8 md:p-12 rounded">
+                        <h1 class="heading1 md:text-4xl text-3xl leading-normal mb-3">Sign In</h1>
+                        <form>
+
+                            <div class="form-control mt-6">
+                                <div class="input-container relative mt-5 p-3 rounded">
+                                    <input type="text" required="" id="email" />
+                                    <label>Email or Phone Number</label>
+                                </div>
+                                <p class="error-msg text-sm mt-1" id="email-error">
+                                </p>
+
+                                <div class="input-container relative mt-5 p-3 rounded mt-5">
+                                    <input type="password" required="" id="password" />
+                                    <label>Password</label>
+                                </div>
+                                <p class="error-msg text-sm mt-1" id="pass-error">
+                                </p>
+                            </div>
+
+                            <button class="btn pri-btn w-full h-12 mt-5">Sign In</button>
+
+                            <div class="flex items-center justify-between mt-3">
+                                <div class="checkbox-control flex items-center">
+                                    <input type="checkbox" name="rememberme" id="checkbox-rem" />
+                                    <label for="checkbox-rem" class="text-sm ms-1">Remember Me</label>
+                                </div>
+                                <a href="#" class="text-sm hover:underline">Help help?</a>
+                            </div>
+
+                            <div class="mt-10 mb-14">
+                                <p class="mb-2 text-lg">New to Netflix? <a href="index.html"
+                                        class="text-color hover:underline">Sign Up
+                                        Now</a></p>
+                                <p class="text-sm leading-normal">This page is
+                                    protected by Google reCAPTCHA to ensure you're not a bot.
+                                    <a href="#" class="text-blue-700 hover:underline">Learn More</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- footer -->
+        <footer class="signup-footer relative z-50 mt-14">
+            <div class="w-3/5 mx-auto">
+                <div class="wrapper py-10">
+                    <p>Questions? Call <a href="tel:000-800-919-1694"
+                            class="hover:underline cursor-pointer">000-800-919-1694</a></p>
+
+                    <div class="footer-menu-wrapper mt-6 grid grid-cols-2 sm:grid-cols-4 gap-4">
+                        <div>
+                            <ul>
+                                <li class="mb-3">
+                                    <a href="#" class="text-xs hover:underline">FAQ</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-xs hover:underline">Cookie Preferences</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <ul>
+                                <li class="mb-3">
+                                    <a href="#" class="text-xs hover:underline">Help Centre</a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="text-xs hover:underline">Corporate Information</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="#" class="text-xs hover:underline">Terms of Use</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div>
+                            <ul>
+                                <li>
+                                    <a href="#" class="text-xs hover:underline">Privacy</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+
+
+                    <select class="lang hidden sm:inline mt-5">
+                        <option value="English">English</option>
+                    </select>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+
+</body>
+
+</html>
