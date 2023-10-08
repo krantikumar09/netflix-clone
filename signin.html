@@ -30,7 +30,7 @@
     <section class="hero-header signin">
         <div class="container mx-auto px-4 lg:px-0">
             <div class="wrapper py-6">
-                <header>
+                <header class="mb-4 md:mb-10">
                     <nav class="flex items-center justify-between">
                         <div class="logo">
                             <img src="Images//logo.png" alt="">
@@ -54,6 +54,7 @@
                                 <div class="input-container relative mt-5 p-3 rounded mt-5">
                                     <input type="password" required="" id="password" />
                                     <label>Password</label>
+                                    <p class="show-pass absolute" onclick="handlePass()" id="showPass">SHOW</p>
                                 </div>
                                 <p class="error-msg text-sm mt-1" id="pass-error">
                                 </p>
@@ -145,7 +146,7 @@
     </section>
 
 
-
+    <script src="res/js/main.js"></script>
 </body>
 
 </html>

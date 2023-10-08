@@ -188,7 +188,9 @@ header .logo img {
 }
 
 .signin-container {
-  margin-top: 40px;
+  margin: 0 auto;
+  max-width: 500px;
+  width: 100%;
   color: var(--btn-border-color);
 }
 
@@ -265,4 +267,18 @@ header .logo img {
 
 .error-msg {
   color: var(--orange-color);
+}
+
+.show-pass {
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  display: inline-block;
+  color: var(--text-white-color);
+  font-size: 14px;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  cursor: pointer;
 }
